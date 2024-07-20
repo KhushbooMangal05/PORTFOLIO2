@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+.container{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: bisque;
+    gap:10px;
+    padding:10px;
+}
+.container div{
+    background-color: white;
+    padding: 10px;
+}
+.div1{
+    grid-column-start: 1;
+    grid-column-end:2;
+   
+}
+.div2{
+    grid-row:2/3;
+  
+}
+  
+.div3{
+    grid-column:2/3;
+   grid-row:1/3;
+ 
+}
+.div4{
+    grid-column:1/3;
+  grid-row:3/4;
+  
+}
+.div1 h1{
+    color:red;
+}
+.div1 img{
+    height:100px;
+    width:100px;
+    border:2px solid grey;
+    border-radius:50%;
+}
+.div1{
+text-align:center;
+}
+.div1 button{
+  background-color: red;
+  border-radius:5px;
+  padding:10px;
+  margin: 10px;
+  color:white;
+}
+.div2 img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    padding:10px;
+}
+.div2{
+ text-align: center;
+}
+.div3 img{
+    height: 100px;
+    width:100px;
+    padding:10px;
+}
+.div3 .movie{
+    display:flex;
+}
+.div3 h1{
+    color: rgb(236, 106, 150);
+}
+</style>
+<body>
+    <div class="container">
+        <div class="div1">
+            <img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="image of user">
+            <h1>User Name</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa minima quia nobis reiciendis maiores Ipsa minima quia nobis reiciendis maiores Ipsa minima quia nobis reiciendis maiores</p>
+          <button>Know More About Me</button>
+        </div>
+        <div class="div2"><h1>Contact Me</h1>
+           <a><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVcLuB-TxBN7Lj8MuzS-GhS0rNnrXeODNQQ&s"> </img></a>
+           <a><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv4nM112SBOhXMwG_0zYFvNogq3NeyepI1gw&s"></img></a>
+           <a><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkbq-094WlodH_1w7xW6QoUqoafZcgLPKbA&s"></img></a>
+        </div>
+        <div class="div3"><h1>My Favorite Movies</h1>
+        
+        <div class="movie">
+            <img src="https://m.media-amazon.com/images/I/81mZDyQhLBL.jpg" alt="space odyssey">
+            <div>
+            <h2>Space Odyssey</h2>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, voluptatibus, aspernatur minus beatae soluta illo dolore perferendis corrupti rerum cupiditate cum vitae repellendus quo sunt similique at neque velit. Dicta.</p>
+        </div>
+        </div>
+        <div class="movie">
+        <img src="https://m.media-amazon.com/images/M/MV5BZDNlNjI2MjktZjQzZi00ODY4LWFiNDEtY2IxMGJhOWQwMTc5XkEyXkFqcGdeQXVyNTU1ODMyNjA@._V1_FMjpg_UX1000_.jpg" alt="Alien">
+        <div>
+        <h2>Alien</h2>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, voluptatibus, aspernatur minus beatae soluta illo dolore perferendis corrupti rerum cupiditate cum vitae repellendus quo sunt similique at neque velit. Dicta.</p>
+    </div>
+    </div>
+    <div class="movie">
+            <img src="https://c8.alamy.com/comp/2C3D431/les-vacances-de-monsieur-hulot-french-vintage-movie-poster-2C3D431.jpg" alt="Monsieur Hulot">
+            <div>
+            <h2>Monsieur Hulot</h2>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, voluptatibus, aspernatur minus beatae soluta illo dolore perferendis corrupti rerum cupiditate cum vitae repellendus quo sunt similique at neque velit. Dicta.</p>
+        </div>
+        </div>
+
+    </div>
+        <div class="div4"><h1>About Me</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit fugit unde, suscipit voluptas nam tempora obcaecati possimus enim iste, modi voluptatem nisi, fuga molestiae in minima laboriosam cumque libero optio!</p>
+        </div>
+    </div>
+</body>
+</html>
